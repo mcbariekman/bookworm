@@ -49,4 +49,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credit
 
-This project is thanks to this [source code](https://github.com/coding-boot-camp/solid-broccoli)
+This project is thanks to the [source code](https://github.com/coding-boot-camp/solid-broccoli).
+
+I also did a similar project and used a lot of the same structure as well as took some inspiration from the code, which you can find [here](https://github.com/lingeorge88/Poke_Trader). The project was a collaborative effort, but the code is original work. 
