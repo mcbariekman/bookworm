@@ -1,70 +1,40 @@
-Certainly! Here's a template for a README file based on your project:
+# Book Search Engine
 
-```
-# Tech Blog
+This web application is designed for avid readers who want to search for new books to read and keep a list of books to purchase. It provides a user-friendly interface with various features to enhance your book searching and organizing experience.
 
-Tech Blog is a web application that allows users to publish their thoughts, ideas, and experiences related to the tech industry. It provides a platform for users to share their knowledge, engage in discussions, and stay updated with the latest trends in the tech world.
+## Acceptance Criteria
 
-The project follows the MVC (Model-View-Controller) architectural pattern and is built using Node.js, Express.js, Sequelize ORM, and Handlebars.js as the templating engine.
+The following features and functionalities have been implemented:
 
-## Features
+1. When you load the search engine, you are presented with a menu that includes the options to "Search for Books" and "Login/Signup." There is also an input field to search for books and a submit button.
 
-- User authentication: Users can create an account, log in, and log out.
-- Post creation and management: Authenticated users can create new blog posts, edit their own posts, and delete their posts.
-- Commenting system: Users can comment on blog posts and engage in discussions.
-- Homepage showcasing recent posts: The homepage displays the most recent blog posts, allowing users to quickly access and read the latest content.
-- User profiles: Each user has a profile page displaying their published posts.
+2. Clicking on the "Search for Books" menu option displays an input field to search for books and a submit button.
 
-## Installation
+3. If you are not logged in and enter a search term in the input field and click the submit button, you are presented with several search results. Each search result includes a book's title, author, description, image, and a link to that book on the Google Books site.
 
-1. Clone the repository:
+4. Clicking on the "Login/Signup" menu option opens a modal on the screen with a toggle between the options to log in or sign up.
 
-   ```bash
-   git clone https://github.com/your-username/tech-blog.git
-   ```
+5. When the toggle is set to "Signup," you are presented with three inputs for a username, an email address, and a password, along with a signup button.
 
-2. Navigate to the project directory:
+6. When the toggle is set to "Login," you are presented with two inputs for an email address and a password, along with a login button.
 
-   ```bash
-   cd tech-blog
-   ```
+7. If you enter a valid email address, create a password, and click on the signup button, your user account is created, and you are logged in to the site.
 
-3. Install the dependencies:
+8. If you enter your account's email address and password and click on the login button, the modal closes, and you are logged in to the site.
 
-   ```bash
-   npm install
-   ```
+9. When you are logged in to the site, the menu options change to "Search for Books," an option to see your saved books, and "Logout."
 
-4. Set up the database:
-   
-   - Create a MySQL database for the project.
-   - Update the database configuration in `config/connection.js` with your database credentials.
+10. If you are logged in and enter a search term in the input field and click the submit button, you are presented with several search results. Each search result includes a book's title, author, description, image, a link to that book on the Google Books site, and a button to save the book to your account.
 
-5. Start the application:
+11. Clicking on the "Save" button on a book saves its information to your account.
 
-   ```bash
-   npm start
-   ```
+12. Clicking on the option to see your saved books presents you with all the books you have saved to your account. Each saved book includes the title, author, description, image, a link to that book on the Google Books site, and a button to remove the book from your account.
 
-6. Open your web browser and visit `http://localhost:3001` to access the Tech Blog application.
+13. Clicking on the "Remove" button on a book deletes it from your saved books list.
 
-## Usage
+14. Clicking on the "Logout" button logs you out of the site and presents you with a menu that includes the options to "Search for Books" and "Login/Signup." There is also an input field to search for books and a submit button.
 
-- Create a new account or log in with your existing credentials.
-- Once logged in, you can create a new blog post by clicking on the "New Post" button.
-- On the homepage, you'll find the most recent blog posts. Click on a post to view its full content and comments.
-- You can leave comments on blog posts by entering your comment in the provided input field and clicking "Submit."
-- On your profile page, you can view and manage your published posts.
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request describing your changes.
+Feel free to explore the features of this book search engine and enjoy discovering new books to add to your reading list!.
 
 ## License
 
