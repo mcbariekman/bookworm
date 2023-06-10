@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "apollo-server-express": "^2.15.0",
     "react": "^18.2.0"
   },
   "scripts": {
@@ -9,7 +10,6 @@
   "description": "This web application is designed for avid readers who want to search for new books to read and keep a list of books to purchase. It provides a user-friendly interface with various features to enhance your book searching and organizing experience.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
