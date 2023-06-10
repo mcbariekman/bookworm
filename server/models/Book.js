@@ -1,7 +1,7 @@
 const { Schema } = require('mongoose');
 
-const cardSchema = new Schema({
-    cardId: {
+const bookSchema = new Schema({
+    bookId: {
         type: String,
         required: true,
     },
@@ -36,4 +36,4 @@ const cardSchema = new Schema({
     }
 });
 
-module.exports = cardSchema;
+module.exports = bookSchema;
